@@ -23,7 +23,7 @@ To use the password manager CLI, follow these steps:
 
 ## License
 
-This project is licensed under the GNU General Public License v3.0. See the [LICENSE](LICENSE) file for details.
+This project is licensed under the GNU General Public License v3.0. See the [LICENSE.txt](LICENSE.txt) file for details.
 
 ## Contributing
 
