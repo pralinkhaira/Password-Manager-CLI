@@ -15,7 +15,7 @@ The password manager CLI has the following features:
 
 To use the password manager CLI, follow these steps:
 
-1. Clone the repository: `git clone [repository URL]`
+1. Clone the repository: `git clone https://github.com/BitH0xker/Password-Manager-CLI`
 2. Install Python 3.x if you haven't already: [Python Downloads](https://www.python.org/downloads/)
 3. Navigate to the directory containing the password_manager.py file in your terminal or command prompt
 4. Run the command `python password_manager.py` to start the password manager
