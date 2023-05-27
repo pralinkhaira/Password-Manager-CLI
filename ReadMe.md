@@ -20,6 +20,7 @@ To use the password manager CLI, follow these steps:
 3. Navigate to the directory containing the password_manager.py file in your terminal or command prompt
 4. Run the command `python password_manager.py` to start the password manager
 5. Follow the prompts in the password manager to add, view, search, or delete passwords
+6. There is example `password.json` file in which each password is associated with a name or category (e.g., "Email," "Bank," "Social Media," etc.). When the code loads this JSON file, it will populate the passwords dictionary with these entries.
 
 ## License
 
