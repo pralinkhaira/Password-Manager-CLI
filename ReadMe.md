@@ -32,3 +32,14 @@ Contributions are welcome! If you have any suggestions or improvements, please o
 ## Contact
 
 If you have any questions or comments about this project, please feel free to contact me at [be.coder.19@gmail.com].
+
+## Update Note
+
+`Update V1.1`
+- Error Handling: Added exception handling for file operations, displaying appropriate error messages.
+- Input Validation: Implemented validation for password name and minimum password length of 8 characters, displaying error messages for invalid inputs.
+- Encryption and Security: Implemented `encrypt_password()` and `decrypt_password()` methods using the `cryptography` library for password encryption and decryption.
+- User Interface Improvement: Utilized the `getpass` module to hide password input, enhancing security and user experience.
+- Separation of Concerns: Organized the code into a `PasswordManager` class to encapsulate password management functionality, improving code organization and reusability.
+
+Note: Replace `'YOUR_SECRET_KEY'` in the `key` variable with your own secret key for encryption. Keep the secret key private and secure.
