@@ -37,10 +37,10 @@ If you have any questions or comments about this project, please feel free to co
 ## Update Note
 
 `Update V1.1`
-- Error Handling: Added exception handling for file operations, displaying appropriate error messages.
-- Input Validation: Implemented validation for password name and minimum password length of 8 characters, displaying error messages for invalid inputs.
-- Encryption and Security: Implemented `encrypt_password()` and `decrypt_password()` methods using the `cryptography` library for password encryption and decryption.
-- User Interface Improvement: Utilized the `getpass` module to hide password input, enhancing security and user experience.
-- Separation of Concerns: Organized the code into a `PasswordManager` class to encapsulate password management functionality, improving code organization and reusability.
 
-Note: Replace `'YOUR_SECRET_KEY'` in the `key` variable with your own secret key for encryption. Keep the secret key private and secure.
+In the modified code:
+- The `PasswordManager` class encapsulates the password management functionality. It includes methods for generating a key, loading and saving passwords, encrypting and decrypting passwords, adding, viewing, searching, and deleting passwords.
+- The `generate_key()` method is used to generate a new encryption key using the `Fernet` class from the `cryptography` library.
+- The file operations in `load_passwords()` and `save_passwords()` methods now handle encryption and decryption of password data using the encryption key.
+- The `add_password()` method validates the password name to ensure it is unique and prompts the user for a password with a minimum length of 8 characters. It utilizes the `getpass` module to hide the password input while typing for enhanced security.
+- The `run()` method is responsible for running the password manager program. It generates a new encryption key, loads existing passwords, and presents the menu options to the user.
